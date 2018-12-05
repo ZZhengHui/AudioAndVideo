@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#22992266"
+        android:padding="20dp"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/previousIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:contentDescription="@null"
+            android:src="@android:drawable/ic_media_previous" />
+
+        <ImageView
+            android:id="@+id/startAndPauseIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@null"
+            android:src="@drawable/selector_startorpause_bg" />
+
+        <ImageView
+            android:id="@+id/nextIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@null"
+            android:paddingEnd="60dp"
+            android:src="@android:drawable/ic_media_next" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

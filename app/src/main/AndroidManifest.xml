@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!--播放音频-->
+        <activity android:name=".audio.StartAudioActivity" />
     </application>
 
 </manifest>
